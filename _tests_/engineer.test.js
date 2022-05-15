@@ -1,7 +1,7 @@
-const Engineer = require('../lib/Engineer');
+const Engineer = require('../lib/engineer');
 
 test('get engineer github via method', () => {
-    const github = 'fraancellaa';
-    const newEngineer = new Engineer(1, 'francella', 'francellal@hotmail.com', github);
+    const github = 'fmandrea30';
+    const newEngineer = new Engineer(1, 'maria', 'maria@hotmail.com', github);
     expect(newEngineer.getGithub()).toBe(github);
 });
